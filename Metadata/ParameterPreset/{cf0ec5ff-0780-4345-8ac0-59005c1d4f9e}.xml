@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{cf0ec5ff-0780-4345-8ac0-59005c1d4f9e}">
+		<property name="name">
+			<value>Combat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b53a79d5-19f8-48f1-8c5a-0cd8aaebf71f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b53a79d5-19f8-48f1-8c5a-0cd8aaebf71f}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>0.75999999046325684</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

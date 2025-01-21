@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{ae52c523-0198-4aa9-9114-88e989998058}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="masters">
+			<destination>{452bedf6-25be-4616-84e9-b23e8ba0009f}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{0e6fa0c1-b765-47a5-8569-654768b40d00}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{bee5957e-2b19-4ea6-af6b-9b106b8aa2d3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0e6fa0c1-b765-47a5-8569-654768b40d00}">
+		<relationship name="effects">
+			<destination>{3a6fd63c-6ab5-48d1-9ce8-ad1886f13a2a}</destination>
+			<destination>{b4dc03b4-c996-475b-b1b6-25a13739ce24}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{bee5957e-2b19-4ea6-af6b-9b106b8aa2d3}" />
+	<object class="MixerSend" id="{3a6fd63c-6ab5-48d1-9ce8-ad1886f13a2a}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{034181ee-dfd5-436d-bd1e-918594ce683a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{b4dc03b4-c996-475b-b1b6-25a13739ce24}" />
+</objects>

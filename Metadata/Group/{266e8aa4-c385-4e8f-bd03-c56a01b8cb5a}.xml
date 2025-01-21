@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{266e8aa4-c385-4e8f-bd03-c56a01b8cb5a}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{82f106d7-be65-414f-9a9b-177f890e6253}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{e2e3db8d-67b5-40f5-b722-fc9a9faf765c}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{c0502af4-c920-42b9-8940-3b9e0c5adf7b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{37ebe042-e398-4752-957b-d6bbe119265f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{82f106d7-be65-414f-9a9b-177f890e6253}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>5</value>
+		</property>
+		<property name="attackTime">
+			<value>28</value>
+		</property>
+		<property name="releaseTime">
+			<value>68</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{2ef72127-d33f-4be5-9c04-6d5ae7b1d0a2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c0502af4-c920-42b9-8940-3b9e0c5adf7b}">
+		<relationship name="effects">
+			<destination>{50574be8-1340-4289-b774-76389fac0eb6}</destination>
+			<destination>{42571e7b-9803-4824-814b-a10822a5451d}</destination>
+			<destination>{798a6a72-e2e8-4e44-b505-7c3971c17f6e}</destination>
+			<destination>{3e3f5c19-715c-47d4-9ae1-02e710f86e81}</destination>
+			<destination>{c0dc238a-ac0e-490d-b042-8141888d4e43}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{37ebe042-e398-4752-957b-d6bbe119265f}" />
+	<object class="MixerSend" id="{50574be8-1340-4289-b774-76389fac0eb6}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{034181ee-dfd5-436d-bd1e-918594ce683a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{42571e7b-9803-4824-814b-a10822a5451d}" />
+	<object class="FlangerEffect" id="{798a6a72-e2e8-4e44-b505-7c3971c17f6e}">
+		<property name="rate">
+			<value>0</value>
+		</property>
+		<property name="delay">
+			<value>0.00999999978</value>
+		</property>
+		<property name="mix">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{3e3f5c19-715c-47d4-9ae1-02e710f86e81}">
+		<property name="threshold">
+			<value>-11</value>
+		</property>
+		<property name="ratio">
+			<value>1.95000005</value>
+		</property>
+		<property name="attackTime">
+			<value>0.550000012</value>
+		</property>
+		<property name="releaseTime">
+			<value>58</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{e1190285-bd81-449b-8a96-a5db7e105680}</destination>
+		</relationship>
+	</object>
+	<object class="LimiterEffect" id="{c0dc238a-ac0e-490d-b042-8141888d4e43}">
+		<property name="boost">
+			<value>10</value>
+		</property>
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+		<property name="release">
+			<value>3.20000005</value>
+		</property>
+	</object>
+</objects>

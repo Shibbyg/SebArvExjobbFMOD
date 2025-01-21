@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{f9dae2ab-d7f2-4cb9-a09a-9eac52f1c45c}">
+		<property name="color">
+			<value>Green Light 1</value>
+		</property>
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
+		<property name="name">
+			<value>Gunner</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{621677c9-2f57-4ba6-b1d8-0c8f94816890}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{26ac4163-7e71-4b67-ab62-21c596c7075a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ae52c523-0198-4aa9-9114-88e989998058}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{621677c9-2f57-4ba6-b1d8-0c8f94816890}">
+		<relationship name="effects">
+			<destination>{fd31e332-fe01-4189-a63e-e561ee698a20}</destination>
+			<destination>{08c4f20c-ca2c-4f10-bd9f-5ab4c42022f3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{26ac4163-7e71-4b67-ab62-21c596c7075a}" />
+	<object class="MixerBusFader" id="{fd31e332-fe01-4189-a63e-e561ee698a20}" />
+	<object class="Sidechain" id="{08c4f20c-ca2c-4f10-bd9f-5ab4c42022f3}" />
+</objects>

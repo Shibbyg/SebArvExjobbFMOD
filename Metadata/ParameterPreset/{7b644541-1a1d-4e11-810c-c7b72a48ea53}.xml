@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7b644541-1a1d-4e11-810c-c7b72a48ea53}">
+		<property name="name">
+			<value>PigIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{65386475-d4c9-45ce-a76c-3bf61e2d52cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ccf2fc7f-58ef-4f25-9924-c73e7198b4f9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ccf2fc7f-58ef-4f25-9924-c73e7198b4f9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

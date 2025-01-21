@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{df4b726e-d35f-4f7e-8a27-c207573d7293}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
+		<property name="name">
+			<value>GameOver Stinger</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{eb8b7924-7fa5-4870-909d-4d5630e92097}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{b5522047-a7cd-41df-9298-3662d48692c7}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{5f53379a-afa1-4958-b4b7-e72c9385012c}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{7fe47a55-5122-4a4b-8cf3-d9de76ffa4ed}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{aa8d0a0a-470c-4fe5-9f4a-9f0033690455}</destination>
+			<destination>{b60576e2-10e0-4dee-8b00-27f3ffb564b2}</destination>
+			<destination>{13b9613c-5a4d-4dec-9858-ea11352040fe}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{cd12a7c0-2b74-4fda-8e80-a068eae7d9e9}</destination>
+			<destination>{f97602fa-818c-40a5-85ca-293c1c2220c4}</destination>
+			<destination>{d273f185-8d53-4566-9598-e41879cd159f}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{eb8b7924-7fa5-4870-909d-4d5630e92097}">
+		<relationship name="modulators">
+			<destination>{0afc368d-f625-40ed-898e-cd2e04556787}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{b5522047-a7cd-41df-9298-3662d48692c7}" />
+	<object class="Timeline" id="{5f53379a-afa1-4958-b4b7-e72c9385012c}" />
+	<object class="SnapshotMasterTrack" id="{7fe47a55-5122-4a4b-8cf3-d9de76ffa4ed}" />
+	<object class="SnapshotProperty" id="{aa8d0a0a-470c-4fe5-9f4a-9f0033690455}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{266e8aa4-c385-4e8f-bd03-c56a01b8cb5a}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{b60576e2-10e0-4dee-8b00-27f3ffb564b2}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-26</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d738bf99-cca1-4091-be04-354efc436751}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{13b9613c-5a4d-4dec-9858-ea11352040fe}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-26</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{ae52c523-0198-4aa9-9114-88e989998058}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{cd12a7c0-2b74-4fda-8e80-a068eae7d9e9}">
+		<relationship name="mixerStrip">
+			<destination>{266e8aa4-c385-4e8f-bd03-c56a01b8cb5a}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{f97602fa-818c-40a5-85ca-293c1c2220c4}">
+		<relationship name="mixerStrip">
+			<destination>{d738bf99-cca1-4091-be04-354efc436751}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{d273f185-8d53-4566-9598-e41879cd159f}">
+		<relationship name="mixerStrip">
+			<destination>{ae52c523-0198-4aa9-9114-88e989998058}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{0afc368d-f625-40ed-898e-cd2e04556787}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.185135752</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.185135752</value>
+		</property>
+	</object>
+</objects>

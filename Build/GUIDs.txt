@@ -1,0 +1,91 @@
+{0e41109f-2d01-4da2-8a51-0de32d7fc467} bank:/Master Bank
+{965c304b-5c7a-01e0-0c18-871ddc8cc2ff} bank:/Master Bank.strings
+{0d701ae7-c4e0-424c-aa96-fccddccd5f44} bus:/
+{8868859e-c7ee-42ef-870d-c859a110f195} bus:/Ambiance
+{66f01db6-cdee-40c4-bc00-3a3bcade4c31} bus:/Ambiance/AMB_Indoor
+{13bfb0e4-b73e-4aee-bb60-babbbf1ad70d} bus:/Ambiance/AMB_Manager
+{cc9d81a6-aeeb-4759-87c2-e69a3e4f923a} bus:/Ambiance/AMB_Outdoor
+{034181ee-dfd5-436d-bd1e-918594ce683a} bus:/CaveReverb
+{92a70ca0-f662-4bc0-afdf-22878e8fc21b} bus:/Enemies
+{cc19249f-97b4-4496-9d29-e742030e5623} bus:/Enemies/ENMY_Chomper
+{e6ba4064-64b0-4a47-9925-50c9289d5a7a} bus:/Enemies/ENMY_Generic
+{81a10e9f-98ee-4aa4-af68-6f11a33aaced} bus:/Enemies/ENMY_Gunner
+{22cbf34b-aa6d-41ee-a80c-f91eee179c2b} bus:/Enemies/ENMY_Gunner/ENMY_Gunner_Intro
+{21ca5786-8cdd-4f55-8a4f-6849942991d5} bus:/Enemies/ENMY_Gunner/ENMY_Gunner_Weapon
+{d78b6b4e-9890-480b-8bf0-b0e5d0a1d0dc} bus:/Enemies/ENMY_Spitter
+{11aedd98-3d16-4d54-bdd8-91eb266d2699} bus:/Music
+{9446116f-7932-46e5-958f-40bd2a3a2710} bus:/Music/Stingers
+{2be79a5a-885e-4e48-b41b-9e5fe4061459} bus:/Music/Themes
+{30a3b975-2f4a-47f6-b0c2-34029ec46851} bus:/Objects
+{ee1f4ca9-2ae2-4075-9971-b65922d225a7} bus:/Objects/OBJ_WallDestory
+{1c4b0445-8514-4eea-b010-d460a615cde4} bus:/Player
+{a13e4680-b6b2-4d0a-96a2-efe1ca5f5c70} bus:/Player/PlayerDamage
+{f6d22a3c-ef5a-4d33-ac1e-b6a5021cd2d1} bus:/Player/PlayerMovement
+{0d1e1ad8-ea00-4550-b265-39295eca6995} bus:/Player/Player_Weapon
+{d1534b5b-be6d-4282-bed4-e2a22846b5b7} bus:/UI
+{30413255-2e1e-4519-bbd5-5aa054dc5d5e} event:/Ambiance/Ambiance_Acid_Pool_Loop
+{c3eae41d-a07b-44b5-b8e8-67757db00c90} event:/Ambiance/Ambiance_Acid_Pool_Splash
+{596263ef-fcef-43a9-89db-2537b6729d06} event:/Ambiance/Ambiance_Indoor_Cave
+{3178388c-b61f-42da-8ac9-38ccc806d181} event:/Ambiance/Ambiance_Indoor_CaveSmall_Zone_3
+{2cdfa732-f9b4-490a-809d-2d40d5a7d4d4} event:/Ambiance/Ambiance_Manager
+{deb90969-feff-48d0-acae-ee36fa033ee5} event:/Ambiance/Ambiance_Outdoor_Jungle
+{b4432bbf-6bf8-45c3-896c-e8ff728839cf} event:/Ambiance/Ambiance_Weather
+{70103010-c7a3-4082-a52a-1c906a9f6ff7} event:/Enemies/Chomper/Enemy_Chomper_Attack_Melee
+{0e46c4a6-8fc8-48b6-9e5f-5bde2f1a7ec9} event:/Enemies/Enemy_Die
+{6c24b1ac-7aed-406e-b0c6-22b9ea253e60} event:/Enemies/Gunner/Enemy_Gunner_Attack_Grenade
+{4d1e4f24-eb42-4f20-b2e9-37a326bedb09} event:/Enemies/Gunner/Enemy_Gunner_Attack_Laser
+{d66477fe-86af-4c3d-9739-b5e865133d95} event:/Enemies/Gunner/Enemy_Gunner_Attack_Lightning
+{cc889a3d-c3ac-4467-9e4f-c960d104fa1c} event:/Enemies/Gunner/Enemy_Gunner_Damage
+{2ba0868d-3f6c-4cb6-9df4-55176feb081c} event:/Enemies/Gunner/Enemy_Gunner_Death
+{ec99caf3-851d-4d1a-89d0-d74bf6157af8} event:/Enemies/Gunner/Enemy_Gunner_Footstep
+{75e81d6c-022f-45c7-882f-970ddbbcac50} event:/Enemies/Gunner/Enemy_Gunner_Intro_Cutscene
+{93c2b377-0fd0-4fb0-88a9-6a834f4e00b1} event:/Enemies/Gunner/Enemy_Gunner_Shield
+{67155bb4-428b-49bc-9c6a-20940b233583} event:/Enemies/Gunner/Enemy_Gunner_Steam_Stages
+{fcfda48e-a076-487e-8271-5c94559f4eee} event:/Enemies/Spitter/Enemy_Spitter_Attack_Ranged
+{7b02b302-3f35-4f75-8e77-989a359434a2} event:/Music/Music_Boss
+{1afecc74-3f1b-475b-a5b2-4c4a7197d75c} event:/Music/Music_Combat
+{7618af08-dd0e-4fe0-8317-86c901a2a534} event:/Music/Music_Inside
+{44bbd4c1-9e5c-4009-b4b8-7210ccbf6167} event:/Music/Music_Menu
+{aecb0d3d-1c41-44e0-aa1c-ddd37bb58a88} event:/Music/Music_Outside
+{35677576-a99c-4ef5-8443-98cf183f4df4} event:/Music/Stinger_GameOver
+{cb4fb753-b522-4869-9da0-78b834ae6c99} event:/Music/Stinger_Progression
+{8376bf9b-bce2-433f-af52-412963c7467d} event:/Objects & Interactables/Obejct_Pressure_Plate
+{de870e5d-52a8-40e8-a8a2-21d27bdfd566} event:/Objects & Interactables/Object_Box_Push
+{7246c8fd-d872-40cd-9116-1642b0200d1a} event:/Objects & Interactables/Object_Door_Open
+{2a7dde09-e1e8-4811-ba51-ca5dcc4874b5} event:/Objects & Interactables/Object_Pickup_Health
+{cf7abfa0-231a-4e98-b03a-30982a9ce2c5} event:/Objects & Interactables/Object_Switch_Trigger
+{cea6fdf2-067a-4f65-8459-e70b9b78e8cd} event:/Objects & Interactables/Object_Wall_Destruct
+{80c9c405-31fe-473d-beb9-abcd45aeead8} event:/Player/BulletCollision
+{c1d814a7-e1cd-4be9-a7bc-0c35d3a23656} event:/Player/PlayerVOExertions
+{b4790303-248f-43a1-b156-1e88c0865cd0} event:/Player/Player_Attack_Melee
+{464f4fe8-393e-4612-992a-bf4d00afb0fd} event:/Player/Player_Attack_Ranged
+{fdb8567c-9397-4c27-ae38-4e0f98cb5e4c} event:/Player/Player_Damage_Generic
+{6eb8b3bd-0746-4ab9-affc-0f9b6ab66359} event:/Player/Player_Footsteps
+{31188a28-f50a-4e2b-a410-9d7aad02187b} event:/Player/Player_Jump
+{b58c09e1-5dae-448a-aba2-a08ad5b172b3} event:/Player/Player_Land
+{c37ba077-5bdd-442c-8a61-8486d50e25e1} event:/UI/Menu_Button_GameStart
+{f938d918-3096-4c2c-a00f-9286adf284fa} event:/UI/Menu_Button_Generic
+{fd56a81a-1f77-42d8-9e4d-a98d0d83e967} parameter:/Combat
+{42c89c97-428b-4d14-994b-909965243a29} parameter:/DistanceAcidPool
+{48b39859-7c07-4a70-abea-fa62f6c35ed7} parameter:/Distance_Cave
+{2a8eb0b3-ad51-430a-96bc-f7f5deeaf1c2} parameter:/End
+{74abb1a7-b896-4e73-b5f0-61fb09cc0602} parameter:/ExertionType
+{a91a5108-6c06-43fa-a39a-3ce1a700ebdd} parameter:/GameOver
+{0c59923b-1b61-4d2b-bce3-fde7abc89ad4} parameter:/Health
+{9f6472c4-309c-473e-a1e1-8f2464543428} parameter:/Location
+{429b7ca3-682c-40d5-891b-4ca4920df7ed} parameter:/Progress
+{ace853b5-7493-4b4e-863a-7958c1b18988} parameter:/ShieldState
+{7604adb7-739d-4d77-b3c2-22aadede4ef6} parameter:/Stage
+{b4a2b4be-7b84-4461-a898-12410b47a46e} parameter:/SteamStage
+{fe3bbb2c-8e6a-4afb-bd96-f4274f0da428} parameter:/Surface
+{6bd164f1-7695-46f5-bc96-643a6b2dbcd0} parameter:/WindStrength
+{945765d9-a319-4320-b0c4-2a5f1eaf5486} snapshot:/AMB_Indoor_Small_Snapshot
+{26919129-1ab4-46a3-8ef6-79899f08a687} snapshot:/AMB_Indoor_Snapshot
+{0daf5934-d952-4b41-af4b-7c23d0fb3a15} snapshot:/Boss_Intro_Snapshot
+{f4bc4932-741a-4f31-92ee-6f588a12763b} snapshot:/GameOver_Snapshot
+{79bdec4a-bdbe-42ce-8c5d-f8ab6e58d267} snapshot:/Health_Level_Critical_Snapshot
+{8cb02b34-2b66-46de-8861-4d81e4972af5} snapshot:/Health_Level_Normal_Snapshot
+{2dc73ea7-2369-412d-b4c7-a22f4df834cb} snapshot:/PlayerDeath_Snapshot
+{9f101dbf-29cf-4305-8cd8-1fe4498f3e37} vca:/Ambiance
+{2dde0ec9-961f-4e02-b57c-394188448a5a} vca:/Music
+{4e133126-62b9-467b-973f-71b5dcdffcac} vca:/SFX

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{081da420-8da6-480c-a0cb-7c600fe91922}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<property name="name">
+			<value>Stingers</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7b4c208e-b496-4534-974c-8a41a3117fdf}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0be7abab-a313-46fe-b340-b9682743f43a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7b4c208e-b496-4534-974c-8a41a3117fdf}">
+		<relationship name="effects">
+			<destination>{f7ebf864-7943-4543-8578-5fe610d8d7df}</destination>
+			<destination>{046f1d55-1438-4797-8caf-5cb725fb09ab}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0be7abab-a313-46fe-b340-b9682743f43a}" />
+	<object class="MixerBusFader" id="{f7ebf864-7943-4543-8578-5fe610d8d7df}" />
+	<object class="LimiterEffect" id="{046f1d55-1438-4797-8caf-5cb725fb09ab}">
+		<property name="boost">
+			<value>7</value>
+		</property>
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+		<property name="release">
+			<value>7.80000019</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3bc1aa5d-32a9-4f87-8d53-2e1f5f5b3719}">
+		<property name="name">
+			<value>WindTreeRustle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{65386475-d4c9-45ce-a76c-3bf61e2d52cb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a3bbd100-84a5-436a-8ea6-e9465e7cadc9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a3bbd100-84a5-436a-8ea6-e9465e7cadc9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.2800000011920929</value>
+		</property>
+	</object>
+</objects>
