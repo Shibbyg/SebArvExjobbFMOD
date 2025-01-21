@@ -5984,7 +5984,6 @@ Is only suppose to be activated after scene 4 once the player is on the way up f
 	<object class="MixerBusEffectChain" id="{e50795d7-9306-4c5f-ab46-de1937d670dd}">
 		<relationship name="effects">
 			<destination>{4e4d2dc8-c071-4737-8e4d-2c726bcce8ea}</destination>
-			<destination>{9dc483c8-61ca-4994-8784-9f8434bb2792}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{956f10b4-680b-4478-bbcd-704e51835cdd}" />
@@ -8879,14 +8878,6 @@ Is only suppose to be activated after scene 4 once the player is on the way up f
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4e4d2dc8-c071-4737-8e4d-2c726bcce8ea}" />
-	<object class="FlangerEffect" id="{9dc483c8-61ca-4994-8784-9f8434bb2792}">
-		<property name="rate">
-			<value>2.29999995</value>
-		</property>
-		<property name="mix">
-			<value>100</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{d11a2753-db1e-41e7-ac7e-872a5879cc29}">
 		<property name="position">
 			<value>0</value>
@@ -12109,7 +12100,7 @@ Is only suppose to be activated after scene 4 once the player is on the way up f
 			<value>7</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.385251969</value>
@@ -12120,7 +12111,7 @@ Is only suppose to be activated after scene 4 once the player is on the way up f
 			<value>7.9917149958574978</value>
 		</property>
 		<property name="value">
-			<value>-9.5</value>
+			<value>-8</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{29de8b3a-e82f-4c24-803f-58de5f45149d}">
@@ -12128,7 +12119,7 @@ Is only suppose to be activated after scene 4 once the player is on the way up f
 			<value>4.9975144987572495</value>
 		</property>
 		<property name="value">
-			<value>-9.5</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
 			<value>0.424004465</value>
