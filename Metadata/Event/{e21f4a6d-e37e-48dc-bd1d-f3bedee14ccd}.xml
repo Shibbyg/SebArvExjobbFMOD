@@ -90,6 +90,7 @@ The "ProgressionMusic" parameter is only used to lower the volume of the Asynced
 		</relationship>
 		<relationship name="banks">
 			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
+			<destination>{55d1d972-01ce-40c4-af62-a560720d15bc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{0f55c54d-031e-4461-96f7-bcf97e64e191}">
