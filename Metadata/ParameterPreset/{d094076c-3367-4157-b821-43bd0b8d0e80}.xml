@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{d094076c-3367-4157-b821-43bd0b8d0e80}">
 		<property name="name">
-			<value>Getting cold</value>
+			<value>Getting cold-hot</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
@@ -19,7 +19,7 @@
 			<value>true</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="seekSpeed">
 			<value>0.37999999523162842</value>
