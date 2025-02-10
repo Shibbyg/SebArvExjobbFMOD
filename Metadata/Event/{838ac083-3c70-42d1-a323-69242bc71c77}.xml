@@ -411,7 +411,7 @@
 			<value>-5.17241287</value>
 		</property>
 		<property name="gainB">
-			<value>-6.20689583</value>
+			<value>-10.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{eab3ee6e-ecd7-4ac8-b704-fa52adcc8924}">
