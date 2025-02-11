@@ -1517,7 +1517,7 @@
 			<destination>{eb61531b-5b09-404e-83c9-9251f1a20ccb}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{827551d2-497f-4560-9633-397c52728c81}</destination>
+			<destination>{a03508b6-3149-4752-a7b2-5a2e271c2755}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{896f3356-2776-40c7-9e80-82d53e5ebe78}">
@@ -1570,10 +1570,10 @@
 	</object>
 	<object class="TransitionRegion" id="{2389eab3-3e22-4a7b-8d1a-a5c85d891e16}">
 		<property name="position">
-			<value>147.1259765625</value>
+			<value>168.45930989583331</value>
 		</property>
 		<property name="length">
-			<value>42.666666666666657</value>
+			<value>21.333333333333343</value>
 		</property>
 		<property name="quantizationInterval">
 			<value>3</value>
@@ -1739,10 +1739,10 @@
 	</object>
 	<object class="LoopRegion" id="{79c9eff1-7364-446d-8f65-e3e39bf8e018}">
 		<property name="position">
-			<value>0.5625</value>
+			<value>0</value>
 		</property>
 		<property name="length">
-			<value>23.25</value>
+			<value>24</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{eb61531b-5b09-404e-83c9-9251f1a20ccb}</destination>
