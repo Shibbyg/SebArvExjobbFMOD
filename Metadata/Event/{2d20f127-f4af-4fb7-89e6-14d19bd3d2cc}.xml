@@ -50,7 +50,7 @@
 			<destination>{16cf7831-76d9-4570-88ea-60c8312978a0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{7de17304-1dab-4690-a32d-dc1f041a2ace}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{372c2898-d670-463f-90e0-0f8fe2cd0626}" />
@@ -120,9 +120,15 @@
 	<object class="MixerBusEffectChain" id="{c2f25195-f740-4b18-ab2f-b4ad3c249501}">
 		<relationship name="effects">
 			<destination>{c5cf6fb8-bcda-4241-91e1-359b84857b36}</destination>
+			<destination>{213fbe64-e193-4ad0-bc76-ef9c02fd5b0a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{39a7af6c-000a-4593-9ae2-f1b2da5b3f13}" />
 	<object class="MixerBusFader" id="{53f64f01-e982-4127-8795-c5710db7cd7d}" />
 	<object class="MixerBusFader" id="{c5cf6fb8-bcda-4241-91e1-359b84857b36}" />
+	<object class="PitchShifterEffect" id="{213fbe64-e193-4ad0-bc76-ef9c02fd5b0a}">
+		<property name="pitch">
+			<value>0.849999964</value>
+		</property>
+	</object>
 </objects>
