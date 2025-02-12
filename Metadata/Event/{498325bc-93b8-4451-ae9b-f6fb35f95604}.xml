@@ -3185,7 +3185,7 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>5158.79541</value>
+			<value>4370.81787</value>
 		</property>
 		<property name="frequencyB">
 			<value>1136.78809</value>
@@ -3200,7 +3200,7 @@
 			<value>2.10000014</value>
 		</property>
 		<property name="gainA">
-			<value>3.99783254</value>
+			<value>5.55796242</value>
 		</property>
 		<property name="gainB">
 			<value>4.5178771</value>
